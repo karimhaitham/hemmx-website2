@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Student Sign Up</title>
+<link href="bootstrap-4.6.0/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="bootstrap-4.6.0/dist/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="Css/Main.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+</head>
+
+<div class="container">
+<br>  <p class="text-center">HEMMX PROGRAMING ACADEMY  </p>
+<hr>
+
+
+
+
+
+<div class="card bg-light">
+<article class="card-body mx-auto" style="max-width: 400px;">
+	<h4 class="card-title mt-3 text-center">Sign Up</h4>
+	
+		<a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
+		<a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
+	</p>
+	<p class="divider-text">
+        <span class="bg-light">OR</span>
+    </p>
+	<form action="user account.html">
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input name="" class="form-control" placeholder="Full name" type="text">
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+		 </div>
+        <input name="" class="form-control" placeholder="Email address" type="email">
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+		</div>
+		
+    	<input name="" class="form-control" placeholder="Phone number" type="text">
+    </div> <!-- form-group// -->
+    <!-- form-group end.// -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1"><i class="fas fa-lock"></i></span>
+        </div>
+        <input name="password" type="password" value="" class="input form-control" id="password" placeholder="Create password" required="true" aria-label="password" aria-describedby="basic-addon1" />
+        <div class="input-group-append">
+          <span class="input-group-text" onclick="password_show_hide();">
+            <i class="fas fa-eye" id="show_eye"></i>
+            <i class="fas fa-eye-slash d-none" id="hide_eye"></i>
+          </span>
+        </div>
+      </div>
+   
+	  <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1"><i class="fas fa-lock"></i></span>
+        </div>
+        <input name="password" type="password" value="" class="input form-control" id="password2" placeholder="Confirm password" required="true" aria-label="password" aria-describedby="basic-addon1" />
+        <div class="input-group-append">
+          <span class="input-group-text" onclick="password_show_hide2();">
+            <i class="fas fa-eye" id="show_eye2"></i>
+            <i class="fas fa-eye-slash d-none" id="hide_eye2"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"><i class="fas fa-calendar-alt"></i> </span>
+      </div>
+      <select class="form-control">
+        <option disabled="disabled" selected="selected" >Age</option>                     
+                                          <option >9</option> 
+                                          <option >10</option>
+                                          <option >11</option>
+                                          <option >12</option>
+                                          <option >13</option>
+                                          <option >14</option>
+                                          <option >15</option>
+                                          <option >16</option>
+                                          </select>
+                                        </div>
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fas fa-venus-mars"></i> </span>
+      </div>
+      <select class="form-control">
+        <option disabled="disabled" selected="selected" >Gender</option>                     
+                                          <option >Female</option> 
+                                          <option >Male</option>
+                                          </select>
+      </div>
+	 <!-- form-group// --> 
+	 <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fas fa-globe"></i> </span>
+		</div>
+		<select class="form-control">
+			<option disabled="disabled" selected="selected" >Choose Country</option>                     
+                                        <option >Afghanistan</option> 
+                                        <option >Albania</option>
+                                        <option >Algeria</option>
+                                        <option >Andorra</option>
+                                        <option >Angola</option>
+                                        <option >Antigua & Barbuda</option>
+                                        <option >Argentina</option>
+                                        <option >Armenia</option>
+                                        <option >Australia</option>
+                                        <option >Austria</option>
+                                        <option >Azerbaijan</option>
+                                        <option >The Bahamas</option>
+                                        <option >Bahrain</option>
+                                        <option >Bangladesh</option>
+                                        <option >Barbados</option>
+                                        <option >Belarus</option>
+                                        <option >Belgium</option>
+                                        <option >Belize</option>
+                                        <option >Benin</option>
+                                        <option >Bhutan</option>
+                                        <option >Bolivia</option>
+                                        <option >Bosnia & Herzegovina</option>
+                                        <option >Botswana</option>
+                                        <option >Brazil</option>
+                                        <option >Brunei</option>
+                                        <option >Bulgaria</option>
+                                        <option >Burkina Faso</option>
+                                        <option >Burundi</option>
+                                        <option >Cambodia</option>
+                                        <option >Cameroon</option>
+                                        <option >Canada</option>
+                                        <option >Cape Verde</option>
+                                        <option >Central African Republic</option>
+                                        <option >Chad</option>
+                                        <option >Chile</option>
+                                        <option >China</option>
+                                        <option >Colombia</option>
+                                        <option >Comoros</option>
+                                        <option >Republic of the Congo</option>
+                                        <option >Democratic Republic of the Congo</option>
+                                        <option >Costa Rica</option>
+                                        <option >Cote d’Ivoire</option>
+                                        <option >Croatia</option>
+                                        <option >Cuba</option>
+                                        <option >Cyprus</option>
+                                        <option >Czech Republic</option>
+                                        <option >Denmark</option>
+                                        <option >Djibouti</option>
+                                        <option >Dominica</option>
+                                        <option >Dominican Republic</option>
+                                        <option >East Timor</option>
+                                        <option >Ecuador</option>
+                                        <option >Egypt</option>
+                                        <option >El Salvador</option>
+                                        <option >Equatorial Guinea</option>
+                                        <option >Eritrea</option>
+                                        <option >Estonia</option>
+                                        <option >Ethiopia</option>
+                                        <option >Fiji</option>
+                                        <option >Finland</option>
+                                        <option >France</option>
+                                        <option >Gabon</option>
+                                        <option >The Gambia</option>
+                                        <option >Georgia</option>
+                                        <option >Germany</option>
+                                        <option >Ghana</option>
+                                        <option >Greece</option>
+                                        <option >Grenada</option>
+                                        <option >Guatemala</option>
+                                        <option >Guinea</option>
+                                        <option >Guinea Bissau</option>
+                                        <option >Guyana</option>
+                                        <option >Haiti</option>
+                                        <option >Honduras</option>
+                                        <option >Hungary</option>
+                                        <option >Iceland</option>
+                                        <option >India</option>
+                                        <option >Indonesia</option>
+                                        <option >Iran</option>
+                                        <option >Iraq</option>
+                                        <option >Ireland</option>
+                                        <option >Israel</option>
+                                        <option >Italy</option>
+                                        <option >Jamaica</option>
+                                        <option >Japan</option>
+                                        <option >Jordan</option>
+                                        <option >Kazakhstan</option>
+                                        <option >Kenya</option>
+                                        <option >Kiribati</option>
+                                        <option >Korea, North</option>
+                                        <option >Korea, South</option>
+                                        <option >Kuwait</option>
+                                        <option >Kyrgyzstan</option>
+                                        <option >Laos</option>
+                                        <option >Latvia</option>
+                                        <option >Lebanon</option>
+                                        <option >Lesotho</option>
+                                        <option >Liberia</option>
+                                        <option >Libya</option>
+                                        <option >Liechtenstein</option>
+                                        <option >Lithuania</option>
+                                        <option >Luxembourg</option>
+                                        <option >Macedonia</option>
+                                        <option >Madagascar</option>
+                                        <option >Malawi</option>
+                                        <option >Malaysia</option>
+                                        <option >Maldives</option>
+                                        <option >Mali</option>
+                                        <option >Malta</option>
+                                        <option >Marshall Islands</option>
+                                        <option >Mauritania</option>
+                                        <option >Mauritius</option>
+                                        <option >Mexico</option>
+                                        <option >Federated States of Micronesia</option>
+                                        <option >Moldova</option>
+                                        <option >Monaco</option>
+                                        <option >Mongolia</option>
+                                        <option >Montenegro</option>
+                                        <option >Morocco</option>
+                                        <option >Mozambique</option>
+                                        <option >Myanmar (Burma)</option>
+                                        <option >Namibia</option>
+                                        <option >Nauru</option>
+                                        <option >Nepal</option>
+                                        <option >Netherlands</option>
+                                        <option >New Zealand</option>
+                                        <option >Nicaragua</option>
+                                        <option >Niger</option>
+                                        <option >Nigeria</option>
+                                        <option >Norway</option>
+                                        <option >Oman</option>
+                                        <option >Pakistan</option>
+                                        <option >Palau</option>
+                                        <option >Panama</option>
+                                        <option >Papua New Guinea</option>
+                                        <option >Paraguay</option>
+                                        <option >Peru</option>
+                                        <option >Philippines</option>
+                                        <option >Poland</option>
+                                        <option >Portugal</option>
+                                        <option >Qatar</option>
+                                        <option >Romania</option>
+                                        <option >Russia</option>
+                                        <option >Rwanda</option>
+                                        <option >Saint Kitts and Nevis</option>
+                                        <option >Saint Lucia</option>
+                                        <option >Saint Vincent and the Grenadines</option>
+                                        <option >Samoa</option>
+                                        <option >San Marino</option>
+                                        <option >Sao Tome and Principe</option>
+                                        <option >Saudi Arabia</option>
+                                        <option >Senegal</option>
+                                        <option >Serbia</option>
+                                        <option >Seychelles</option>
+                                        <option >Sierra Leone</option>
+                                        <option >Singapore</option>
+                                        <option >Slovakia</option>
+                                        <option >Slovenia</option>
+                                        <option >Solomon Islands</option>
+                                        <option >Somalia</option>
+                                        <option >South Africa</option>
+                                        <option >Spain</option>
+                                        <option >Sri Lanka</option>
+                                        <option >Sudan</option>
+                                        <option >Suriname</option>
+                                        <option >Swaziland</option>
+                                        <option >Sweden</option>
+                                        <option >Switzerland</option>
+                                        <option >Syria</option>
+                                        <option >Tajikistan</option>
+                                        <option >Tanzania</option>
+                                        <option >Thailand</option>
+                                        <option >Togo</option>
+                                        <option >Tonga</option>
+                                        <option >Trinidad and Tobago</option>
+                                        <option >Tunisia</option>
+                                        <option >Turkey</option>
+                                        <option >Turkmenistan</option>
+                                        <option >Tuvalu</option>
+                                        <option >Uganda</option>
+                                        <option >Ukraine</option>
+                                        <option >United Arab Emirates</option>
+                                        <option >United Kingdom</option>
+                                        <option >United States</option>
+                                        <option >Uruguay</option>
+                                        <option >Uzbekistan</option>
+                                        <option >Vanuatu</option>
+                                        <option >Vatican City</option>
+                                        <option >Venezuela</option>
+                                        <option >Vietnam</option>
+                                        <option >Yemen</option>
+                                        <option >Zambia</option>
+                                        <option >Zimbabwe</option>
+                                </select>
+                                
+                       
+
+
+	</div>                                      
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+    </div> <!-- form-group// -->      
+    <p class="text-center">Have an account? <a href="Sign In.html">Sign In</a> </p>                                                                 
+</form>
+</article>
+</div> <!-- card.// -->
+
+</div> 
+<!--container end.//-->
+
+<br><br>
+
+</article>
+<script>
+    function password_show_hide() {
+      var x = document.getElementById("password");
+      var show_eye = document.getElementById("show_eye");
+      var hide_eye = document.getElementById("hide_eye");
+      hide_eye.classList.remove("d-none");
+      if (x.type === "password") {
+        x.type = "text";
+        show_eye.style.display = "none";
+        hide_eye.style.display = "block";
+      } else {
+        x.type = "password";
+        show_eye.style.display = "block";
+        hide_eye.style.display = "none";
+      }
+    }
+
+	function password_show_hide2() {
+      var x = document.getElementById("password2");
+      var show_eye = document.getElementById("show_eye2");
+      var hide_eye = document.getElementById("hide_eye2");
+      hide_eye.classList.remove("d-none");
+      if (x.type === "password") {
+        x.type = "text";
+        show_eye.style.display = "none";
+        hide_eye.style.display = "block";
+      } else {
+        x.type = "password";
+        show_eye.style.display = "block";
+        hide_eye.style.display = "none";
+      }
+    }
+  </script>
+
+
+
+</html>
